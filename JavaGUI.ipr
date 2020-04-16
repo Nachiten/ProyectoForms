@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactManager">
+    <artifact type="javafx" name="JavaGUI">
+      <output-path>$PROJECT_DIR$/out/artifacts/JavaGUI</output-path>
+      <properties id="javafx-properties">
+        <options>
+          <option name="appClass" value="main" />
+          <option name="description" value="" />
+          <option name="htmlPlaceholderId" value="" />
+          <option name="nativeBundle" value="all" />
+          <option name="title" value="" />
+          <option name="vendor" value="" />
+          <option name="version" value="" />
+        </options>
+      </properties>
+      <root id="root">
+        <element id="archive" name="JavaGUI.jar">
+          <element id="module-output" name="JavaGUI" />
+        </element>
+      </root>
+    </artifact>
+  </component>
   <component name="CodeStyleManager">
     <option name="USE_DEFAULT_CODE_STYLE_SCHEME" value="true" />
     <option name="CODE_STYLE_SCHEME" value="" />

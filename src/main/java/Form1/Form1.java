@@ -12,7 +12,6 @@ public class Form1 extends JFrame{
     private JButton boton2;
     private JButton boton3;
     private JButton boton4;
-    private JButton boton5;
 
     private boolean ganoJuego;
 
@@ -75,14 +74,6 @@ public class Form1 extends JFrame{
                 }
 
 
-            }
-        });
-
-        boton5.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e)
-            {
-                FormManager.activarForm2();
             }
         });
 

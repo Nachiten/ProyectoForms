@@ -1,5 +1,4 @@
-package Principal;
-import Form1.Form1;
+import Principal.FormManager;
 
 import javax.swing.*;
 
