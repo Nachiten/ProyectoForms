@@ -176,4 +176,7 @@
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="1.8.0_231" project-jdk-type="JavaSDK" />
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
 </project>

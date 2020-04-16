@@ -1,4 +1,5 @@
-package GUI;
+package Principal;
+import Form1.Form1;
 
 import javax.swing.*;
 
@@ -7,8 +8,7 @@ public class main {
     {
         UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 
-        MiGUIForm GUIform1 = new MiGUIForm();
-        GUIform1.setVisible(true);
+        FormManager.activarForm1();
     }
 
 }
