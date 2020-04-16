@@ -12,6 +12,7 @@ public class Form1 extends JFrame{
     private JButton boton2;
     private JButton boton3;
     private JButton boton4;
+    private JButton boton5;
 
     private boolean ganoJuego;
 
@@ -33,6 +34,7 @@ public class Form1 extends JFrame{
             {
                 setTitle("Tocame");
                 setSize(800,600);
+                setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
             }
         });
 
@@ -66,9 +68,11 @@ public class Form1 extends JFrame{
             public void actionPerformed(ActionEvent e) {
 
                 if (!ganoJuego){
-                    JOptionPane.showMessageDialog(rootPane, MensajeCambiante.devolverMensajeRandom());
+                    JOptionPane.showMessageDialog(rootPane, MensajeCambiante.obtenerMensajeCambiante());
                 }else{
-                    JOptionPane.showMessageDialog(rootPane, "Ahora si hizo algo, ganaste");
+                    JOptionPane.showMessageDialog(rootPane, "Ahora si hizo algo, pero no se bien que...");
+
+                    System.out.println("Ganó Form1");
 
                     FormManager.activarForm2();
                 }
@@ -76,6 +80,15 @@ public class Form1 extends JFrame{
 
             }
         });
+
+        boton5.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e)
+            {
+                FormManager.activarForm2();
+            }
+        });
+
 
     }
 
