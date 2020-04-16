@@ -12,6 +12,7 @@ public class Form1 extends JFrame{
     private JButton boton2;
     private JButton boton3;
     private JButton boton4;
+    private JButton irAForm4Button;
 
     private boolean ganoJuego;
 
@@ -30,7 +31,7 @@ public class Form1 extends JFrame{
             {
                 setTitle("Tocame");
                 setSize(800,600);
-                setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                //setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
             }
         });
 
@@ -78,6 +79,12 @@ public class Form1 extends JFrame{
         });
 
 
+        irAForm4Button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                FormManager.activarForm5();
+            }
+        });
     }
 
     void cambiarBoton(JButton unBoton){

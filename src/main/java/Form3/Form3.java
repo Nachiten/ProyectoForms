@@ -27,7 +27,7 @@ public class Form3 extends JFrame{
             {
                 setTitle("No tengo ni idea que es esto, espero que vos si");
                 setSize(800,600);
-                setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                //setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
                 progressBar1.setMaximum(100);
                 progressBar1.setMinimum(0);

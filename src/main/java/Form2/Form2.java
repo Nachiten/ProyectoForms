@@ -26,7 +26,7 @@ public class Form2 extends JFrame {
             {
                 setTitle("Este es el titulo");
                 setSize(800,600);
-                setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                //setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
             }
         });
 
