@@ -20,9 +20,6 @@ public class Form1 extends JFrame{
     {
         add(rootPanel);
 
-        // JRootPane rootPane = SwingUtilities.getRootPane(boton1);
-        // rootPane.setDefaultButton(null);
-
         boton1.setEnabled(true);
         boton2.setEnabled(true);
         boton3.setEnabled(true);
