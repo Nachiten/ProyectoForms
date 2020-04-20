@@ -203,7 +203,7 @@ public class Form4 extends JFrame{
         {
             JOptionPane.showMessageDialog(rootPane, "Rompiste todo....");
             System.out.println("Ganó Form 4");
-            FormManager.activarForm5();
+            FormManager.siguienteForm();
         }
     }
 

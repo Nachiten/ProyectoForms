@@ -11,16 +11,16 @@ class MiWindowListener implements WindowListener {
     }
 
     public void windowOpened(WindowEvent arg0) {
-        System.out.println("Window Opened");
+        //System.out.println("Window Opened");
     }
     public void windowClosed(WindowEvent arg0) {
-        System.out.println("Window Closed");
+        //System.out.println("Window Closed");
     }
     public void windowIconified(WindowEvent arg0) {
-        System.out.println("Window Iconified");
+        //System.out.println("Window Iconified");
     }
     public void windowDeiconified(WindowEvent arg0) {
-        System.out.println("Window Deiconified");
+        //System.out.println("Window Deiconified");
     }
     public void windowActivated(WindowEvent arg0) {
         //System.out.println( "Ventana " + arg0.getWindow().getClass() + " Activada");

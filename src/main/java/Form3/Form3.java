@@ -63,7 +63,7 @@ public class Form3 extends JFrame{
                             unLabel.setText("no me leas, ah no para.. ya lo hiciste :)");
                             JOptionPane.showMessageDialog(rootPane, "Contraseña Aceptada :(:):");
                             System.out.println("Ganó Form 3");
-                            FormManager.activarForm4();
+                            FormManager.siguienteForm();
                             break;
                     }
 

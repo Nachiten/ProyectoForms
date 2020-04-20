@@ -70,7 +70,7 @@ public class Form1 extends JFrame{
 
                     System.out.println("Ganó Form1");
 
-                    FormManager.activarForm2();
+                    FormManager.siguienteForm();
                 }
 
 

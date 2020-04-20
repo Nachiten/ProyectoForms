@@ -1,5 +1,7 @@
 package Form5;
 
+import Principal.FormManager;
+
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
@@ -69,14 +71,8 @@ public class Form5 extends JFrame{
     void checkearComplecion(){
         if (slider1.getValue() == 100 && slider2.getValue() == 100 && slider3.getValue() == 100){
             System.out.println("Ganó Form 5");
-
-
-            while (true){
-                JOptionPane.showMessageDialog(rootPane, "Muy bien, te felicito");
-            }
-
+            FormManager.siguienteForm();
         }
-
     }
 
 }

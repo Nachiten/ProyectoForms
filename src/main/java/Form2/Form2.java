@@ -121,7 +121,7 @@ public class Form2 extends JFrame {
 
         if (!boton1.isSelected() && boton2.isSelected() && !boton3.isSelected() && boton4.isSelected() && boton5.isSelected() && !boton6.isSelected() ){
 
-            FormManager.activarForm3();
+            FormManager.siguienteForm();
 
             System.out.println("Ganó Form2");
         }
